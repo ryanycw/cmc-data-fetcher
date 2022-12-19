@@ -1,4 +1,4 @@
-## CMC Historical Data Fetcher
+## CMC Data Fetcher
 A tool to fetch price, trading volume, TVL, market cap by token symbol in CoinMarketCap
 
 ## Installation
