@@ -28,18 +28,3 @@ try:
   print(data['data'][f'{str(args.symbol)}']['id'])
 except (ConnectionError, Timeout, TooManyRedirects) as e:
   print(e)
-
-"""
-urlOHLCVData = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/ohlcv/historical'
-
-paramsOHLCV = {
-
-}
-
-try:
-  response = session.get(urlMetadata, params=paramsMetadata)
-  data = json.loads(response.text)
-  print(data)
-except (ConnectionError, Timeout, TooManyRedirects) as e:
-  print(e)
-"""
